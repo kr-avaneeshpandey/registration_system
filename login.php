@@ -17,7 +17,6 @@
         if($row_cnt>0){
             while($val=mysqli_fetch_assoc($result)){
                 include 'sessions.php';
-                $_SESSION['loggedin'] = true;
                 $_SESSION['username']=$val['username'];
                 $_SESSION['name']=$val['name'];
                 $_SESSION['loggedin']=true;

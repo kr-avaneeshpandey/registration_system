@@ -12,4 +12,4 @@ function logoutUser() {
     session_unset();
     session_destroy();
 }
-?>
+
