@@ -1,11 +1,10 @@
 <?php 
 $server="localhost";
-$username="root";
+$username="";
 $password="";
 $database="facebookdb";
 
 $conn = mysqli_connect($server,$username,$password,$database);
 if(!$conn){
-    die("Error".mysqli_connect_error());
+    die("Error");
 }
-?>
