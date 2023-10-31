@@ -19,7 +19,6 @@
                 include 'sessions.php';
                 $_SESSION['username']=$val['username'];
                 $_SESSION['name']=$val['name'];
-                $_SESSION['loggedin']=true;
                 header("location: dashboard.php"); // Redirect to the dashboard
                 exit;
             }
