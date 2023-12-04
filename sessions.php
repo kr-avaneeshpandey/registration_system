@@ -7,9 +7,4 @@ function isUserLoggedIn() {
     return isset($_SESSION['loggedin']) && $_SESSION['loggedin'] == true;
 }
 
-// Function to log out the user
-function logoutUser() {
-    session_unset();
-    session_destroy();
-}
 
